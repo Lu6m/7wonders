@@ -14,12 +14,12 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 455,586);
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("7 wonders architect");
         stage.setScene(scene);
         stage.show();
+        Game.option.createListeMerveilles();
     }
-
 
     public static void BildAnzeigen(String path, ImageView imageViewName){
             try{Image image=new Image(Objects.requireNonNull(HelloApplication.class.

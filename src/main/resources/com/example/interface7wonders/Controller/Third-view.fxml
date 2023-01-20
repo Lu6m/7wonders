@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interface7wonders.Controller.ThirdView">
    <children>
-      <AnchorPane layoutX="-1.0" layoutY="-5.0" minHeight="400.0" minWidth="600.0" prefHeight="500.0" prefWidth="630.0" style="-fx-background-color: white;" stylesheets="@../../../stylesheet.css">
+      <AnchorPane layoutX="-1.0" layoutY="-5.0" minHeight="400.0" minWidth="600.0" prefHeight="500.0" prefWidth="630.0" style="-fx-background-color: white;" stylesheets="@../../../../stylesheet.css">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="389.0" layoutY="65.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
             <Button fx:id="okButton2" layoutX="461.0" layoutY="333.0" mnemonicParsing="false" onAction="#onOkButton2Click" text="OK" />

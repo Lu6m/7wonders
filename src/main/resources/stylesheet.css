@@ -11,6 +11,9 @@
     -fx-background-repeat : no-repeat ;
     -fx-background-size : cover ;
 }
+#canva4{
+    -fx-position : center;
+}
 #playButton {
     -fx-background-color : linear-gradient(to top, rgb(146, 125, 104), rgb(33, 134, 217));
     -fx-text-fill : white;

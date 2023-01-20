@@ -2,9 +2,9 @@ package com.example.interface7wonders;
 
 public class Player {
     private String name;
-    private Merveilles saMerveille;
+    private Wonder saMerveille;
 
-    public Player(String name, Merveilles saMerveille) {
+    public Player(String name, Wonder saMerveille) {
         this.name = name;
         this.saMerveille = saMerveille;
     }
@@ -13,13 +13,7 @@ public class Player {
         return name;
     }
 
-    public Merveilles getSaMerveille() {
+    public Wonder getSaMerveille() {
         return saMerveille;
-    }
-    public static void setName(String name) {
-        name = name;
-    }
-    public static void setSaMerveille(Merveilles saMerveille) {
-        saMerveille = saMerveille;
     }
 }

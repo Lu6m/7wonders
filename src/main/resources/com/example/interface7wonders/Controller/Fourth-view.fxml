@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="3.0" prefHeight="590.0" prefWidth="1001.0" style="-fx-background-color: white;">
+         <children>
+            <AnchorPane fx:id="afficheJeu7" layoutX="261.0" layoutY="320.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Text fx:id="playerText7" layoutX="8.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText7" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire7" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide71" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide72" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide73" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoint7" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoints7" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <ImageView fx:id="tokenSide74" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide75" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide76" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="70.0" layoutX="339.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mysteryDeck" fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/card-back-question.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="351.0" layoutY="21.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
+            <Text fx:id="playerTextPrincipal" layoutX="350.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Line endX="100.0" endY="-140.0" layoutX="542.0" layoutY="140.0" startX="100.0" startY="428.0" />
+            <ImageView fx:id="tokenWar6" fitWidth="50.0" layoutY="551.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar1" fitWidth="50.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar2" fitWidth="50.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar3" fitWidth="50.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar5" fitWidth="50.0" layoutY="501.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar4" fitWidth="50.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenPioche" fitHeight="150.0" fitWidth="50.0" layoutX="62.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="76.0" layoutX="920.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="tokenPick2" fitHeight="150.0" fitWidth="50.0" layoutX="172.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenPick1" fitHeight="150.0" fitWidth="50.0" layoutX="117.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenPick3" fitHeight="150.0" fitWidth="50.0" layoutX="227.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="leftDeck" fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/card-back-question.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rightDeck" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/card-back-question.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="victoryTextPrincipal" layoutX="351.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory points :" textAlignment="CENTER" wrappingWidth="150.00000000000006">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="nbPointsVictoirePrincipal" layoutX="496.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="40.000020345052235">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="70.0" layoutX="295.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="token1" fitHeight="150.0" fitWidth="40.0" layoutX="369.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="token2" fitHeight="150.0" fitWidth="40.0" layoutX="409.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="token3" fitHeight="150.0" fitWidth="40.0" layoutX="449.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="token4" fitHeight="150.0" fitWidth="40.0" layoutX="489.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="token5" fitHeight="150.0" fitWidth="40.0" layoutX="529.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="token6" fitHeight="150.0" fitWidth="40.0" layoutX="569.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-back.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="pickText" layoutX="119.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a card!">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <AnchorPane fx:id="afficheJeu1" layoutX="642.0" layoutY="-1.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <Text fx:id="playerText1" layoutX="7.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText1" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire1" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide11" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide12" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide13" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoints1" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoints1" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide14" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide15" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide16" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="250.0" layoutX="104.0" layoutY="94.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="afficheJeu2" layoutX="642.0" layoutY="94.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <Text fx:id="playerText2" layoutX="9.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText2" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire2" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide21" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide22" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide23" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoints2" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoints2" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide24" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide25" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide26" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="250.0" layoutX="105.0" layoutY="94.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="afficheJeu3" layoutX="642.0" layoutY="189.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <Text fx:id="playerText3" layoutX="8.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText3" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire3" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide31" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide32" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide33" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoints3" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoint3" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide34" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide35" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide36" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="250.0" layoutX="105.0" layoutY="94.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="afficheJeu4" layoutX="642.0" layoutY="284.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <Text fx:id="playerText4" layoutX="8.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText4" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire4" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide41" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide42" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide43" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoints4" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoints4" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide44" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide45" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide46" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="250.0" layoutX="105.0" layoutY="94.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="afficheJeu5" layoutX="642.0" layoutY="378.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <Text fx:id="playerText5" layoutX="8.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText5" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire5" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide51" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide52" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide53" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoints5" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoints5" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide54" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide55" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide56" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="250.0" layoutX="105.0" layoutY="94.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="afficheJeu6" layoutX="642.0" layoutY="473.0" prefHeight="95.0" prefWidth="359.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="8.0" layoutY="9.0" stroke="#927d68" strokeType="INSIDE" width="76.0" />
+                  <Text fx:id="playerText6" layoutX="8.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="75.00000000000006">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="victoryText6" layoutX="98.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory Points :" textAlignment="CENTER" wrappingWidth="100.95237731933594">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbPointsVictoire6" layoutX="189.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide61" fitHeight="150.0" fitWidth="30.0" layoutX="8.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide62" fitHeight="150.0" fitWidth="30.0" layoutX="41.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide63" fitHeight="150.0" fitWidth="30.0" layoutX="74.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="warPoints6" layoutX="4.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War Points :" textAlignment="CENTER" wrappingWidth="76.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="nbWarPoints6" layoutX="72.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002034505223">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="tokenSide64" fitHeight="150.0" fitWidth="30.0" layoutX="107.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide65" fitHeight="150.0" fitWidth="30.0" layoutX="140.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="tokenSide66" fitHeight="150.0" fitWidth="30.0" layoutX="173.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/token-back.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="250.0" layoutX="105.0" layoutY="94.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="finishedButton" layoutX="798.0" layoutY="569.0" mnemonicParsing="false" onAction="#onFinishedClick" text="Finished !" />
+            <Button layoutX="723.0" layoutY="569.0" mnemonicParsing="false" text="Validate" />
+            <Text fx:id="warTextPrincipal" layoutX="350.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War points :" textAlignment="CENTER" wrappingWidth="150.00000000000006">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="nbPointsWarPrincipal" layoutX="495.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="40.000020345052235">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="95.0" layoutX="261.0" layoutY="320.0" stroke="WHITE" strokeType="INSIDE" width="359.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

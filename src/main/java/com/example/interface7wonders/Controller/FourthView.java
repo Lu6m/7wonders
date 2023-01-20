@@ -1,10 +1,30 @@
 package com.example.interface7wonders.Controller;
 
+import com.example.interface7wonders.Deck;
+import com.example.interface7wonders.Game;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 
+import java.io.IOException;
+
 public class FourthView {
+    @FXML
+    private AnchorPane afficheJeu1;
+    @FXML
+    private AnchorPane afficheJeu2;
+    @FXML
+    private AnchorPane afficheJeu3;
+    @FXML
+    private AnchorPane afficheJeu4;
+    @FXML
+    private AnchorPane afficheJeu5;
+    @FXML
+    private AnchorPane afficheJeu6;
+    @FXML
+    private AnchorPane afficheJeu7;
     @FXML
     private ImageView tokenPioche;
     @FXML
@@ -69,4 +89,27 @@ public class FourthView {
     private Text nbPointsVictoire3;
     @FXML
     private Text numPlayer4;
+    @FXML
+    private Button finishedButton;
+
+    public void start(){
+        Deck.option.getListeDeck("Images/card-back-question.png");
+        Deck.option.getListeDeck("Images/card-back-alexandrie.png");
+        Deck.option.getListeDeck("Images/card-back-babylon.png");
+    }
+    @FXML
+    protected void onFinishedClick() throws IOException {
+        double layX = afficheJeu1.getLayoutX();
+        double layY = afficheJeu1.getLayoutY();
+        for (int i = 1; i == Game.getNbPlayers(); i++) {
+            String anchor = "afficheJeu" + i + "";
+            System.out.println(anchor);
+
+            //anchor.setLayoutX(afficheJeu2.getLayoutX());
+            //anchor.setLayoutY(afficheJeu2.getLayoutY());
+
+            afficheJeu7.setLayoutX(layX);
+            afficheJeu7.setLayoutY(layY);
+        }
+    }
 }

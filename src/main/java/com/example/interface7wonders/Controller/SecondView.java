@@ -1,6 +1,8 @@
 package com.example.interface7wonders.Controller;
 
 import com.example.interface7wonders.Game;
+import com.example.interface7wonders.HelloApplication;
+import com.example.interface7wonders.Wonder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -19,6 +21,7 @@ public class SecondView {
     @FXML
     private void initialize(){
         nbPlayerBox.setItems(nbPlayerList);
+
     }
     @FXML
     private Text needPlayerText;
@@ -31,9 +34,9 @@ public class SecondView {
             Stage stage = (Stage) needPlayerText.getScene().getWindow();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("third-view.fxml"));
             stage.setScene(new Scene(fxmlLoader.load()));
-            stage.setFullScreen(true);
         } catch (NumberFormatException e) {
             needPlayerText.setText("Veuillez sélectionner un chiffre");
+
         }
     }
 }

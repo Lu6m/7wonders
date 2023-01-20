@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="canva2" prefHeight="321.0" prefWidth="650.0" stylesheets="@../../../stylesheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interface7wonders.Controller.SecondView">
+<AnchorPane fx:id="canva2" prefHeight="321.0" prefWidth="650.0" stylesheets="@../../../../stylesheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interface7wonders.Controller.SecondView">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="90.0" layoutX="160.0" layoutY="71.0" opacity="0.9" stroke="WHITE" strokeType="INSIDE" width="328.0" />
       <Text fx:id="needPlayerText" layoutX="153.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: white;" text="How many players do you need?" textAlignment="CENTER" wrappingWidth="328.00000000000006">

@@ -1,10 +1,7 @@
 package com.example.interface7wonders;
 
-import javafx.scene.image.Image;
-
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Random;
 
 public class Game {
 
@@ -30,18 +27,18 @@ public class Game {
 
 
     public void createListeMerveilles(){
-        this.listMerveilles.add(new Merveilles("Ephèse","Images/deck-ephese.png"));
-        this.listMerveilles.add(new Merveilles("Alexandrie","Images/deck-alexandrie.png"));
-        this.listMerveilles.add(new Merveilles("Babylon","Images/deck-babylon.png"));
-        this.listMerveilles.add(new Merveilles("Cizeh","Images/deck-cizeh.png"));
-        this.listMerveilles.add(new Merveilles("Halicarnasse","Images/deck-halicarnasse.png"));
-        this.listMerveilles.add(new Merveilles("Olympie","Images/deck-olympie.png"));
-        this.listMerveilles.add(new Merveilles("Rhodes","Images/deck-rhodes.png"));
+        this.listMerveilles.add(new Wonder("Ephèse","Images/deck-ephese.png"));
+        this.listMerveilles.add(new Wonder("Alexandrie","Images/deck-alexandrie.png"));
+        this.listMerveilles.add(new Wonder("Babylon","Images/deck-babylon.png"));
+        this.listMerveilles.add(new Wonder("Cizeh","Images/deck-cizeh.png"));
+        this.listMerveilles.add(new Wonder("Halicarnasse","Images/deck-halicarnasse.png"));
+        this.listMerveilles.add(new Wonder("Olympie","Images/deck-olympie.png"));
+        this.listMerveilles.add(new Wonder("Rhodes","Images/deck-rhodes.png"));
         Collections.shuffle(this.listMerveilles);
 
         }
 
-    public ArrayList<Merveilles> getListMerveilles() {
+    public ArrayList<Wonder> getListMerveilles() {
         return this.listMerveilles;
     }
 }

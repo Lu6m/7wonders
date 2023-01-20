@@ -2,6 +2,7 @@ package com.example.interface7wonders.Controller;
 
 
 import com.example.interface7wonders.Game;
+import com.example.interface7wonders.HelloApplication;
 import javafx.animation.Timeline;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +18,7 @@ public class HelloController {
     @FXML
     public void initialize(){
         Game.playGame();
-        Game.option.createListeMerveilles();}
+        }
     @FXML
     private Button playButton;
     @FXML
@@ -32,8 +33,8 @@ public class HelloController {
         /*Timeline timeline = new Timeline();
         timeline.setDelay(Duration.millis(5000));*/
         Stage stage = (Stage) playButton.getScene().getWindow();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("second-view.fxml"));
-        stage.setScene(new Scene(fxmlLoader.load()));
-        stage.setFullScreen(true);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloController.class.getResource("second-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 650, 321);
+        stage.setScene(scene);
     }
 }
