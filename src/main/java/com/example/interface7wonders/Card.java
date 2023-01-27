@@ -1,12 +1,15 @@
 package com.example.interface7wonders;
 
+import java.util.ArrayList;
+
 public class Card {
     private String imageFront;
-    private String imageBack;
 
-
-    public Card(String imageFront, String imageBack) {
+    public Card(String imageFront) {
         this.imageFront = imageFront;
-        this.imageBack = imageBack;
+    }
+
+    public String getImageFront() {
+        return imageFront;
     }
 }

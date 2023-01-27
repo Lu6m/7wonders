@@ -1,6 +1,7 @@
 package com.example.interface7wonders;
 
 public class Player {
+    public static Player option;
     private String name;
     private Wonder saMerveille;
 

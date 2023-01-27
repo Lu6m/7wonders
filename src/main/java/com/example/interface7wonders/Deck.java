@@ -1,16 +1,18 @@
 package com.example.interface7wonders;
 
-import java.lang.reflect.Array;
+import javafx.scene.image.Image;
+
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Deck {
     public static Deck option;
-    private String name;
     private ArrayList listeDeck;
+    private String imageBack;
 
-    public Deck(String name, ArrayList listeDeck) {
-        this.name = name;
+    public Deck(ArrayList listeDeck, String imageBack) {
         this.listeDeck = listeDeck;
+        this.imageBack=imageBack;
     }
 
     public ArrayList getListeDeck(String imageBack) {
@@ -19,10 +21,10 @@ public class Deck {
     }
 
     public void createDeck(String imageBack){
-        listeDeck.add(new Card("card-material-wood-lumberjack.png",imageBack));
-        listeDeck.add(new Card("card-material-brick-women.png",imageBack));
-        listeDeck.add(new Card("card-material-glass-women.png",imageBack));
-        listeDeck.add(new Card("card-material-paper-women.png",imageBack));
+        listeDeck.add(new Card("Image/card-material-wood-lumberjack.png"));
+        listeDeck.add(new Card("Image/card-material-brick-women.png"));
+        listeDeck.add(new Card("Image/card-material-glass-women.png"));
+        listeDeck.add(new Card("Image/card-material-paper-women.png"));
 
     }
 }

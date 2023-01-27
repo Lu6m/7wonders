@@ -1,7 +1,6 @@
 package com.example.interface7wonders.Controller;
 
 import com.example.interface7wonders.Deck;
-import com.example.interface7wonders.Game;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
@@ -10,7 +9,7 @@ import javafx.scene.text.Text;
 
 import java.io.IOException;
 
-public class FourthView {
+public class FifthView {
     @FXML
     private AnchorPane afficheJeu1;
     @FXML
@@ -23,8 +22,6 @@ public class FourthView {
     private AnchorPane afficheJeu5;
     @FXML
     private AnchorPane afficheJeu6;
-    @FXML
-    private AnchorPane afficheJeu7;
 
 
     public void start() {
@@ -47,9 +44,7 @@ public class FourthView {
         afficheJeu4.setLayoutY(afficheJeu5.getLayoutY());
         afficheJeu5.setLayoutX(afficheJeu6.getLayoutX());
         afficheJeu5.setLayoutY(afficheJeu6.getLayoutY());
-        afficheJeu6.setLayoutX(afficheJeu7.getLayoutX());
-        afficheJeu6.setLayoutY(afficheJeu7.getLayoutY());
-        afficheJeu7.setLayoutX(layX);
-        afficheJeu7.setLayoutY(layY);
+        afficheJeu6.setLayoutX(layX);
+        afficheJeu6.setLayoutY(layY);
     }
 }

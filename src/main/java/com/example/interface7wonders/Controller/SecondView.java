@@ -30,7 +30,6 @@ public class SecondView {
     protected void onOkClick() throws IOException {
         try{
             Game.option.setNbPlayers(Integer.parseInt((String) nbPlayerBox.getSelectionModel().getSelectedItem()));
-            System.out.println(Game.getNbPlayers());
             Stage stage = (Stage) needPlayerText.getScene().getWindow();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("third-view.fxml"));
             stage.setScene(new Scene(fxmlLoader.load()));

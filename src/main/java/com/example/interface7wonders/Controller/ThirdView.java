@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 
 public class ThirdView {
+    public static ThirdView option;
     @FXML
     private AnchorPane canva3bis;
     @FXML
@@ -28,15 +29,18 @@ public class ThirdView {
     private ImageView imageWonder;
     private int j=0;
     private LinkedList<Player> listPlayers=new LinkedList<>();
+    public LinkedList<Player> getListPlayers() {
+        return listPlayers;
+    }
 
     private String toString(int i) {
         return (i+"");
     }
 
-    public void start(){
-    Wonder randomMerv=Game.option.getListMerveilles().get(1);
-    String path =randomMerv.getImage();
-    HelloApplication.BildAnzeigen(path,imageWonder);}
+    public void initialize(){
+        Wonder randomMerv=Game.option.getListMerveilles().get(1);
+        String path =randomMerv.getImage();
+        HelloApplication.BildAnzeigen(path,imageWonder);}
     @FXML
     protected void onOkButton2Click() throws IOException {
         if (j != Game.getNbPlayers()-1) {
@@ -57,9 +61,9 @@ public class ThirdView {
             Stage stage = (Stage) playerText.getScene().getWindow();
             switch (Game.getNbPlayers()){
                 case 2 : FXMLLoader fxmlLoader2 = new FXMLLoader(getClass().getResource("ninth-view.fxml"));
-                stage.setScene(new Scene(fxmlLoader2.load()));
-                stage.setFullScreen(true);
-                break;
+                    stage.setScene(new Scene(fxmlLoader2.load()));
+                    stage.setFullScreen(true);
+                    break;
                 case 3 : FXMLLoader fxmlLoader3 = new FXMLLoader(getClass().getResource("eighth-view.fxml"));
                     stage.setScene(new Scene(fxmlLoader3.load()));
                     stage.setFullScreen(true);

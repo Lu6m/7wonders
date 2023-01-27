@@ -10,7 +10,7 @@ import javafx.scene.text.Text;
 
 import java.io.IOException;
 
-public class FourthView {
+public class SixthView {
     @FXML
     private AnchorPane afficheJeu1;
     @FXML
@@ -21,11 +21,6 @@ public class FourthView {
     private AnchorPane afficheJeu4;
     @FXML
     private AnchorPane afficheJeu5;
-    @FXML
-    private AnchorPane afficheJeu6;
-    @FXML
-    private AnchorPane afficheJeu7;
-
 
     public void start() {
         Deck.option.getListeDeck("Images/card-back-question.png");
@@ -45,11 +40,8 @@ public class FourthView {
         afficheJeu3.setLayoutY(afficheJeu4.getLayoutY());
         afficheJeu4.setLayoutX(afficheJeu5.getLayoutX());
         afficheJeu4.setLayoutY(afficheJeu5.getLayoutY());
-        afficheJeu5.setLayoutX(afficheJeu6.getLayoutX());
-        afficheJeu5.setLayoutY(afficheJeu6.getLayoutY());
-        afficheJeu6.setLayoutX(afficheJeu7.getLayoutX());
-        afficheJeu6.setLayoutY(afficheJeu7.getLayoutY());
-        afficheJeu7.setLayoutX(layX);
-        afficheJeu7.setLayoutY(layY);
+        afficheJeu5.setLayoutX(layX);
+        afficheJeu5.setLayoutY(layY);
     }
 }
+
