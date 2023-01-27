@@ -679,6 +679,7 @@
                   <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
+            <ImageView fitHeight="227.0" fitWidth="213.0" layoutX="350.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </AnchorPane>
    </children>

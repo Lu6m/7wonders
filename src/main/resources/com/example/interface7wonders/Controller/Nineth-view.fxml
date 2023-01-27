@@ -9,359 +9,331 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0"
-            prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.example.interface7wonders.Controller.NinethView">
-   <AnchorPane layoutX="-1.0" layoutY="3.0" prefHeight="590.0" prefWidth="1000.0"
-               style="-fx-background-color: white;">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interface7wonders.Controller.NinethView">
+   <AnchorPane layoutX="-1.0" layoutY="3.0" prefHeight="590.0" prefWidth="1000.0" style="-fx-background-color: white;">
       <AnchorPane layoutX="3.0" layoutY="201.0" prefHeight="403.0" prefWidth="499.0">
 
-         <ImageView fx:id="carte16" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="93.0"
-                    pickOnBounds="true" preserveRatio="true">
+         <ImageView fx:id="carte16" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
 
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+            <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
-         <ImageView fx:id="carte15" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="133.0"
-                    pickOnBounds="true" preserveRatio="true">
+         <ImageView fx:id="carte15" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
 
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+            <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
-         <ImageView fx:id="carte14" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="173.0"
-                    pickOnBounds="true" preserveRatio="true">
-
-            <Image url="@../Images/card-war-archer-2corns.png"/>
-         </ImageView>
-         <ImageView fx:id="carte13" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="213.0"
-                    pickOnBounds="true" preserveRatio="true">
-
-            <Image url="@../Images/card-war-archer-2corns.png"/>
-         </ImageView>
-         <ImageView fx:id="carte12" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="253.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
-         </ImageView>
-         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="1.0" stroke="#927d68"
-                    strokeType="INSIDE" width="200.0"/>
-         <Text fx:id="playerText1" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER"
-               wrappingWidth="200.0">
-            <font>
-               <Font size="20.0"/>
-            </font>
-         </Text>
-         <Text fx:id="victoryText1" layoutX="200.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0"
-               text="Victory points :" textAlignment="CENTER" wrappingWidth="123.3333129882813">
-            <font>
-               <Font size="15.0"/>
-            </font>
-         </Text>
-         <Text fx:id="nbPointsVictoire1" layoutX="315.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0"
-               textAlignment="CENTER" wrappingWidth="40.000020345052235">
-            <font>
-               <Font size="20.0"/>
-            </font>
-         </Text>
-         <ImageView fx:id="token11" fitHeight="150.0" fitWidth="40.0" layoutY="43.0" pickOnBounds="true"
+         <ImageView fx:id="carte14" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="173.0" pickOnBounds="true"
                     preserveRatio="true">
+            <Image url="@../Images/card-war-archer-2corns.png"/>
+         </ImageView>
+         <ImageView fx:id="carte13" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
 
-            <Image url="@../Images/token-back.png"/>
+            <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
-         <ImageView fx:id="token12" fitHeight="150.0" fitWidth="40.0" layoutX="40.0" layoutY="43.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/token-back.png"/>
+         <ImageView fx:id="carte12" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="253.0" pickOnBounds="true"
+                    preserveRatio="true">
+            <Image url="@../Images/card-war-archer-2corns.png"/>
          </ImageView>
-         <ImageView fx:id="token13" fitHeight="150.0" fitWidth="40.0" layoutX="80.0" layoutY="43.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/token-back.png"/>
-         </ImageView>
-         <ImageView fx:id="token14" fitHeight="150.0" fitWidth="40.0" layoutX="120.0" layoutY="43.0"
-                    pickOnBounds="true" preserveRatio="true">
-
-            <Image url="@../Images/token-back.png"/>
-         </ImageView>
-         <ImageView fx:id="token15" fitHeight="150.0" fitWidth="40.0" layoutX="160.0" layoutY="43.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/token-back.png"/>
-         </ImageView>
-         <ImageView fx:id="token16" fitHeight="150.0" fitWidth="40.0" layoutX="200.0" layoutY="43.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/token-back.png"/>
-         </ImageView>
-         <Text fx:id="warText1" layoutX="203.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0"
-               text="War points :" textAlignment="CENTER" wrappingWidth="112.255859375">
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="1.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
+         <Text fx:id="playerText1" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
             <font>
-               <Font size="15.0"/>
+               <Font size="20.0" />
             </font>
          </Text>
-         <Text fx:id="nbPointsWar1" layoutX="303.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0"
-               textAlignment="CENTER" wrappingWidth="40.000020345052235">
+         <Text fx:id="victoryText1" layoutX="200.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory points :" textAlignment="CENTER" wrappingWidth="123.3333129882813">
             <font>
-               <Font size="20.0"/>
+               <Font size="15.0" />
             </font>
          </Text>
-         <ImageView fx:id="carte11" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="293.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <Text fx:id="nbPointsVictoire1" layoutX="315.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="40.000020345052235">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <ImageView fx:id="token11" fitHeight="150.0" fitWidth="40.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/token-back.png" />
+            </image>
          </ImageView>
-         <ImageView fitHeight="180.0" fitWidth="200.0" layoutX="243.0" layoutY="163.0" pickOnBounds="true"
-                    preserveRatio="true"/>
-         <ImageView fx:id="carte112" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="94.0"
-                    pickOnBounds="true" preserveRatio="true">
-
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="token12" fitHeight="150.0" fitWidth="40.0" layoutX="40.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/token-back.png" />
+            </image>
          </ImageView>
-         <ImageView fx:id="carte111" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="134.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="token13" fitHeight="150.0" fitWidth="40.0" layoutX="80.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/token-back.png" />
+            </image>
          </ImageView>
-         <ImageView fx:id="carte110" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="174.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="token14" fitHeight="150.0" fitWidth="40.0" layoutX="120.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/token-back.png" />
+            </image>
          </ImageView>
-         <ImageView fx:id="carte19" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="214.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="token15" fitHeight="150.0" fitWidth="40.0" layoutX="160.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/token-back.png" />
+            </image>
          </ImageView>
-         <ImageView fx:id="carte18" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="254.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="token16" fitHeight="150.0" fitWidth="40.0" layoutX="200.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/token-back.png" />
+            </image>
          </ImageView>
-         <ImageView fx:id="carte17" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="294.0"
-                    pickOnBounds="true" preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <Text fx:id="warText1" layoutX="203.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War points :" textAlignment="CENTER" wrappingWidth="112.255859375">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Text>
+         <Text fx:id="nbPointsWar1" layoutX="303.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="40.000020345052235">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <ImageView fx:id="carte11" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="180.0" fitWidth="200.0" layoutX="243.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true" />
+         <ImageView fx:id="carte112" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
+         </ImageView>
+         <ImageView fx:id="carte111" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
+         </ImageView>
+         <ImageView fx:id="carte110" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
+         </ImageView>
+         <ImageView fx:id="carte19" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
+         </ImageView>
+         <ImageView fx:id="carte18" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
+         </ImageView>
+         <ImageView fx:id="carte17" fitHeight="150.0" fitWidth="70.0" layoutX="90.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/card-war-archer-2corns.png" />
+            </image>
          </ImageView>
       </AnchorPane>
-      <ImageView fx:id="mysteryDeck" fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="15.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/card-back-question.png"/>
+      <ImageView fx:id="mysteryDeck" fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/card-back-question.png" />
+         </image>
       </ImageView>
-      <Line endY="-110.0" layoutX="500.0" layoutY="296.0" startY="299.0"/>
-      <ImageView fx:id="tokenPioche" fitHeight="150.0" fitWidth="50.0" layoutX="621.0" layoutY="28.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/token-back.png"/>
+      <Line endY="-110.0" layoutX="500.0" layoutY="296.0" startY="299.0" />
+      <ImageView fx:id="tokenPioche" fitHeight="150.0" fitWidth="50.0" layoutX="621.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/token-back.png" />
+         </image>
       </ImageView>
-      <ImageView fx:id="tokenPick2" fitHeight="150.0" fitWidth="50.0" layoutX="731.0" layoutY="28.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/token-back.png"/>
+      <ImageView fx:id="tokenPick2" fitHeight="150.0" fitWidth="50.0" layoutX="731.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/token-back.png" />
+         </image>
       </ImageView>
-      <ImageView fx:id="tokenPick1" fitHeight="150.0" fitWidth="50.0" layoutX="676.0" layoutY="28.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/token-back.png"/>
+      <ImageView fx:id="tokenPick1" fitHeight="150.0" fitWidth="50.0" layoutX="676.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/token-back.png" />
+         </image>
       </ImageView>
-      <ImageView fx:id="tokenPick3" fitHeight="150.0" fitWidth="50.0" layoutX="786.0" layoutY="28.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/token-back.png"/>
+      <ImageView fx:id="tokenPick3" fitHeight="150.0" fitWidth="50.0" layoutX="786.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/token-back.png" />
+         </image>
       </ImageView>
-      <ImageView fx:id="leftDeck" fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="15.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/card-back-question.png"/>
+      <ImageView fx:id="leftDeck" fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/card-back-question.png" />
+         </image>
       </ImageView>
-      <ImageView fx:id="rightDeck" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" layoutY="15.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../Images/card-back-question.png"/>
+      <ImageView fx:id="rightDeck" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/card-back-question.png" />
+         </image>
       </ImageView>
-      <Text fx:id="pickText" layoutX="116.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0"
-            text="Pick a card!">
+      <Text fx:id="pickText" layoutX="116.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a card!">
          <font>
-            <Font size="20.0"/>
+            <Font size="20.0" />
          </font>
       </Text>
-      <Button fx:id="okButton" layoutX="456.0" layoutY="568.0" mnemonicParsing="false" text="Ok"/>
-      <AnchorPane layoutX="850.0" layoutY="-10.0" prefHeight="135.0" prefWidth="150.0"
-                  style="-fx-background-color: white;">
+      <Button fx:id="okButton" layoutX="456.0" layoutY="568.0" mnemonicParsing="false" onAction="#onOkClick" text="Ok" />
+      <AnchorPane layoutX="850.0" layoutY="-10.0" prefHeight="135.0" prefWidth="150.0" style="-fx-background-color: white;">
          <children>
             <ImageView fx:id="tokenWar6" fitWidth="50.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-conflict-peace2.png"/>
+                  <Image url="@../Images/token-conflict-peace2.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="tokenWar1" fitWidth="50.0" layoutX="100.0" layoutY="36.0" pickOnBounds="true"
-                       preserveRatio="true">
-               <Image url="@../Images/token-conflict-peace2.png"/>
-            </ImageView>
-            <ImageView fx:id="tokenWar2" fitWidth="50.0" layoutX="100.0" layoutY="86.0" pickOnBounds="true"
-                       preserveRatio="true">
-               <Image url="@../Images/token-conflict-peace2.png"/>
-            </ImageView>
-            <ImageView fx:id="tokenWar3" fitWidth="50.0" layoutX="50.0" layoutY="36.0" pickOnBounds="true"
-                       preserveRatio="true">
+            <ImageView fx:id="tokenWar1" fitWidth="50.0" layoutX="100.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-conflict-peace2.png"/>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar2" fitWidth="50.0" layoutX="100.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tokenWar3" fitWidth="50.0" layoutX="50.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/token-conflict-peace2.png" />
                </image>
             </ImageView>
             <ImageView fx:id="tokenWar5" fitWidth="50.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-conflict-peace2.png"/>
+                  <Image url="@../Images/token-conflict-peace2.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="tokenWar4" fitWidth="50.0" layoutX="50.0" layoutY="86.0" pickOnBounds="true"
-                       preserveRatio="true">
+            <ImageView fx:id="tokenWar4" fitWidth="50.0" layoutX="50.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-conflict-peace2.png"/>
+                  <Image url="@../Images/token-conflict-peace2.png" />
                </image>
             </ImageView>
-            <Text layoutX="20.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When will war start ?"/>
+            <Text layoutX="20.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When will war start ?" />
          </children>
       </AnchorPane>
-      <Text fx:id="pickTokenText" layoutX="673.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0"
-            text="Pick a token!">
+      <Text fx:id="pickTokenText" layoutX="673.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a token!">
          <font>
-            <Font size="20.0"/>
+            <Font size="20.0" />
          </font>
       </Text>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="400.0" layoutY="19.0"
-                 stroke="#927d68" strokeType="INSIDE" width="200.0"/>
-      <Text fx:id="playersTurn" layoutX="399.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0"
-            textAlignment="CENTER" wrappingWidth="200.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="400.0" layoutY="19.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
+      <Text fx:id="playersTurn" layoutX="399.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
          <font>
-            <Font size="20.0"/>
+            <Font size="20.0" />
          </font>
       </Text>
       <AnchorPane layoutX="504.0" layoutY="199.0" prefHeight="403.0" prefWidth="499.0">
          <children>
-            <ImageView fx:id="carte212" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="93.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte212" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte211" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="133.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte211" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte210" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="173.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte210" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte29" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="213.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte29" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte28" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="253.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte28" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="1.0" stroke="#927d68"
-                       strokeType="INSIDE" width="200.0"/>
-            <Text fx:id="playerText2" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER"
-                  wrappingWidth="200.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="1.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
+            <Text fx:id="playerText2" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
                <font>
-                  <Font size="20.0"/>
+                  <Font size="20.0" />
                </font>
             </Text>
-            <Text fx:id="victoryText2" layoutX="200.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0"
-                  text="Victory points :" textAlignment="CENTER" wrappingWidth="123.3333129882813">
+            <Text fx:id="victoryText2" layoutX="200.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory points :" textAlignment="CENTER" wrappingWidth="123.3333129882813">
                <font>
-                  <Font size="15.0"/>
+                  <Font size="15.0" />
                </font>
             </Text>
-            <Text fx:id="nbPointsVictoire2" layoutX="315.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0"
-                  textAlignment="CENTER" wrappingWidth="40.000020345052235">
+            <Text fx:id="nbPointsVictoire2" layoutX="315.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="40.000020345052235">
                <font>
-                  <Font size="20.0"/>
+                  <Font size="20.0" />
                </font>
             </Text>
-            <ImageView fx:id="token21" fitHeight="150.0" fitWidth="40.0" layoutY="43.0" pickOnBounds="true"
-                       preserveRatio="true">
+            <ImageView fx:id="token21" fitHeight="150.0" fitWidth="40.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-back.png"/>
+                  <Image url="@../Images/token-back.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="token22" fitHeight="150.0" fitWidth="40.0" layoutX="40.0" layoutY="43.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="token22" fitHeight="150.0" fitWidth="40.0" layoutX="40.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-back.png"/>
+                  <Image url="@../Images/token-back.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="token23" fitHeight="150.0" fitWidth="40.0" layoutX="80.0" layoutY="43.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="token23" fitHeight="150.0" fitWidth="40.0" layoutX="80.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-back.png"/>
+                  <Image url="@../Images/token-back.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="token24" fitHeight="150.0" fitWidth="40.0" layoutX="120.0" layoutY="43.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="token24" fitHeight="150.0" fitWidth="40.0" layoutX="120.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-back.png"/>
+                  <Image url="@../Images/token-back.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="token25" fitHeight="150.0" fitWidth="40.0" layoutX="160.0" layoutY="43.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="token25" fitHeight="150.0" fitWidth="40.0" layoutX="160.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-back.png"/>
+                  <Image url="@../Images/token-back.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="token26" fitHeight="150.0" fitWidth="40.0" layoutX="200.0" layoutY="43.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="token26" fitHeight="150.0" fitWidth="40.0" layoutX="200.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/token-back.png"/>
+                  <Image url="@../Images/token-back.png" />
                </image>
             </ImageView>
-            <Text fx:id="warText2" layoutX="203.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0"
-                  text="War points :" textAlignment="CENTER" wrappingWidth="112.255859375">
+            <Text fx:id="warText2" layoutX="203.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="War points :" textAlignment="CENTER" wrappingWidth="112.255859375">
                <font>
-                  <Font size="15.0"/>
+                  <Font size="15.0" />
                </font>
             </Text>
-            <Text fx:id="nbPointsWar2" layoutX="303.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0"
-                  textAlignment="CENTER" wrappingWidth="40.000020345052235">
+            <Text fx:id="nbPointsWar2" layoutX="303.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="40.000020345052235">
                <font>
-                  <Font size="20.0"/>
+                  <Font size="20.0" />
                </font>
             </Text>
-            <ImageView fx:id="carte27" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="293.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte27" fitHeight="150.0" fitWidth="70.0" layoutX="346.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="180.0" fitWidth="200.0" layoutX="45.0" layoutY="176.0" pickOnBounds="true"
-                       preserveRatio="true"/>
-            <ImageView fx:id="carte26" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="94.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="180.0" fitWidth="200.0" layoutX="45.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="carte26" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte25" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="134.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte25" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte24" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="174.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte24" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte23" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="214.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte23" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte22" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="254.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte22" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="carte21" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="294.0"
-                       pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="carte21" fitHeight="150.0" fitWidth="70.0" layoutX="422.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Images/card-war-archer-2corns.png"/>
+                  <Image url="@../Images/card-war-archer-2corns.png" />
                </image>
             </ImageView>
-            <Button fx:id="finishedButton" layoutX="9.0" layoutY="368.0" mnemonicParsing="false"
-                    onAction="#onFinishedClick" text="Finished !"/>
+            <Button fx:id="finishedButton" layoutX="9.0" layoutY="368.0" mnemonicParsing="false" onAction="#onFinishedClick" text="Finished !" />
          </children>
       </AnchorPane>
    </AnchorPane>

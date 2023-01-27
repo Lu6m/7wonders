@@ -173,4 +173,7 @@ public class NinethView {
         afficheJeu2.setLayoutY(layY);
         playersTurn.setText(Player.option.getName()+"'s turn");
     }
+
+    public void onOkClick() {
+    }
 }

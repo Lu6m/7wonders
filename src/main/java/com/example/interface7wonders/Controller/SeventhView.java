@@ -2,6 +2,7 @@ package com.example.interface7wonders.Controller;
 
 import com.example.interface7wonders.Deck;
 import com.example.interface7wonders.Game;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
@@ -42,5 +43,8 @@ public class SeventhView {
         afficheJeu3.setLayoutY(afficheJeu4.getLayoutY());
         afficheJeu4.setLayoutX(layX);
         afficheJeu4.setLayoutY(layY);
+    }
+
+    public void onOkClick(ActionEvent actionEvent) {
     }
 }
