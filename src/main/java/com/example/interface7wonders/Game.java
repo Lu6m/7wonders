@@ -19,13 +19,10 @@ public class Game {
     private ArrayList listMerveilles = new ArrayList<>();
 
 
-
     public void setNbPlayers(int nbPlayers) {
         this.nbPlayers = nbPlayers;
     }
-    public int getNbPlayers() {
-        return nbPlayers;
-    }
+    public int getNbPlayers() {return nbPlayers;}
 
 
     public void createListeMerveilles(){
