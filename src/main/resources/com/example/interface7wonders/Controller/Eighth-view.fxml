@@ -11,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interface7wonders.Controller.EighthView">
    <AnchorPane layoutY="3.0" prefHeight="590.0" prefWidth="1001.0" style="-fx-background-color: white;">
-      <ImageView fx:id="mysteryDeck" fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="mysteryDeck" fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="15.0" onMouseClicked="#onMysteryClick" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/card-back-question.png" />
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="351.0" layoutY="21.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
@@ -39,23 +39,23 @@
       <ImageView fx:id="tokenWar4" fitWidth="50.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/token-conflict-peace2.png" />
       </ImageView>
-      <ImageView fx:id="tokenPioche" fitHeight="150.0" fitWidth="50.0" layoutX="62.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="tokenPioche" fitHeight="150.0" fitWidth="50.0" layoutX="62.0" layoutY="208.0" onMouseClicked="#onTokenClick" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/token-back.png" />
       </ImageView>
       <ImageView fitHeight="76.0" fitWidth="76.0" layoutX="920.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fx:id="tokenPick2" fitHeight="150.0" fitWidth="50.0" layoutX="172.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="tokenPick2" fitHeight="150.0" fitWidth="50.0" layoutX="172.0" layoutY="208.0" onMouseClicked="#onToken2Click" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/token-back.png" />
       </ImageView>
-      <ImageView fx:id="tokenPick1" fitHeight="150.0" fitWidth="50.0" layoutX="117.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="tokenPick1" fitHeight="150.0" fitWidth="50.0" layoutX="117.0" layoutY="208.0" onMouseClicked="#onToken1Click" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/token-back.png" />
       </ImageView>
-      <ImageView fx:id="tokenPick3" fitHeight="150.0" fitWidth="50.0" layoutX="227.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="tokenPick3" fitHeight="150.0" fitWidth="50.0" layoutX="227.0" layoutY="208.0" onMouseClicked="#onToken3Click" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/token-back.png" />
       </ImageView>
-      <ImageView fx:id="leftDeck" fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="leftDeck" fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="15.0" onMouseClicked="#onLeftClick" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/card-back-question.png" />
       </ImageView>
-      <ImageView fx:id="rightDeck" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="rightDeck" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" layoutY="15.0" onMouseClicked="#onRightClick" pickOnBounds="true" preserveRatio="true">
          <Image url="@../Images/card-back-question.png" />
       </ImageView>
       <Text fx:id="victoryTextPrincipal" layoutX="351.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victory points :" textAlignment="CENTER" wrappingWidth="150.00000000000006">

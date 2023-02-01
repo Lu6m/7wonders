@@ -1,5 +1,7 @@
 package com.example.interface7wonders;
 
+import com.example.interface7wonders.Wonders.Wonder;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -21,7 +23,7 @@ public class Game {
     public void setNbPlayers(int nbPlayers) {
         this.nbPlayers = nbPlayers;
     }
-    public static int getNbPlayers() {
+    public int getNbPlayers() {
         return nbPlayers;
     }
 

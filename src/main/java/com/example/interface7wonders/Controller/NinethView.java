@@ -1,5 +1,6 @@
 package com.example.interface7wonders.Controller;
 
+import com.example.interface7wonders.Card;
 import com.example.interface7wonders.Deck;
 import com.example.interface7wonders.Game;
 import com.example.interface7wonders.Player;
@@ -145,23 +146,22 @@ public class NinethView {
     private ImageView carte211;
     @FXML
     private ImageView carte212;
-    private int u=0;
+    private int u = 0;
 
-/*
+
     public void initialize() {
-        Player p=ThirdView.option.getListPlayers().get(0);
+        Player p = ThirdView.option.getListPlayers().get(0);
         playerText1.setText(p.option.getname());
-        }
 
         mysteryDeck.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
-            Card carte=Deck.option.getListeDeck("Image/card-back-question.png").get(u);
-            mysteryDeck.setImage();
+            Card carte = (Card) Deck.option.getListeDeck("Image/card-back-question.png").get(u);
+            mysteryDeck.setImage(carte);
             u++;
 
             event.consume();
         });
+    }
 
-         */
 
     @FXML
     protected void onFinishedClick() throws IOException {

@@ -2,7 +2,7 @@ package com.example.interface7wonders.Controller;
 
 import com.example.interface7wonders.Game;
 import com.example.interface7wonders.HelloApplication;
-import com.example.interface7wonders.Wonder;
+import com.example.interface7wonders.Wonders.Wonder;
 import com.example.interface7wonders.Player;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -43,10 +43,10 @@ public class ThirdView {
         HelloApplication.BildAnzeigen(path,imageWonder);}
     @FXML
     protected void onOkButton2Click() throws IOException {
-        if (j != Game.getNbPlayers()-1) {
+        if (j != Game.option.getNbPlayers()-1) {
             playerText.setText("Player " + toString(j + 2));
             if (nameField.getText() instanceof String){
-                Player player=new Player(nameField.getText(),Game.option.getListMerveilles().get(j));
+                Player player=new Player(nameField.getText(),Game.option.getListMerveilles().get(j),0);
                 listPlayers.add(player);
                 System.out.println(listPlayers);
                 nameField.clear();
@@ -59,7 +59,7 @@ public class ThirdView {
             }
         }else {
             Stage stage = (Stage) playerText.getScene().getWindow();
-            switch (Game.getNbPlayers()){
+            switch (Game.option.getNbPlayers()){
                 case 2 : FXMLLoader fxmlLoader2 = new FXMLLoader(getClass().getResource("ninth-view.fxml"));
                     stage.setScene(new Scene(fxmlLoader2.load()));
                     stage.setFullScreen(true);

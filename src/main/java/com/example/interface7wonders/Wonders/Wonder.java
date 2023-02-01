@@ -1,4 +1,4 @@
-package com.example.interface7wonders;
+package com.example.interface7wonders.Wonders;
 
 public class Wonder {
     private String name;

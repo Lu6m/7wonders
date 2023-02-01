@@ -1,8 +1,6 @@
 package com.example.interface7wonders.Controller;
 
 import com.example.interface7wonders.Game;
-import com.example.interface7wonders.HelloApplication;
-import com.example.interface7wonders.Wonder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

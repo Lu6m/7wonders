@@ -21,17 +21,15 @@
 
             <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
-         <ImageView fx:id="carte14" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="173.0" pickOnBounds="true"
-                    preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="carte14" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
          <ImageView fx:id="carte13" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
 
             <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
-         <ImageView fx:id="carte12" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="253.0" pickOnBounds="true"
-                    preserveRatio="true">
-            <Image url="@../Images/card-war-archer-2corns.png"/>
+         <ImageView fx:id="carte12" fitHeight="150.0" fitWidth="70.0" layoutX="14.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../Images/card-war-archer-2corns.png" />
          </ImageView>
          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="39.0" layoutX="1.0" stroke="#927d68" strokeType="INSIDE" width="200.0" />
          <Text fx:id="playerText1" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="200.0">
@@ -154,15 +152,15 @@
       </ImageView>
       <ImageView fx:id="leftDeck" fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/card-back-question.png" />
+            <Image url="@../../../../Images/card-back-alexandrie.png" />
          </image>
       </ImageView>
       <ImageView fx:id="rightDeck" fitHeight="150.0" fitWidth="200.0" layoutX="230.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/card-back-question.png" />
+            <Image url="@../../../../Images/card-back-ephese.png" />
          </image>
       </ImageView>
-      <Text fx:id="pickText" layoutX="116.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a card!">
+      <Text fx:id="pickText" layoutX="118.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick a card!">
          <font>
             <Font size="20.0" />
          </font>
