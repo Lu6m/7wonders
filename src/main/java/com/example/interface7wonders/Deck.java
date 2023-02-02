@@ -189,7 +189,7 @@ public class Deck {
                 case "Babylon":
                     listDecks.add(createDeck(listBabylon));
                     break;
-                case "Cizeh":
+                case "Gizeh":
                     listDecks.add(createDeck(listGizah));
                     break;
                 case "Halicarnasse":

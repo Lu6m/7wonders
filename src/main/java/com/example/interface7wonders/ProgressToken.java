@@ -14,7 +14,7 @@ public class ProgressToken {
 
     public static final ArrayList<ProgressToken> listToken = new ArrayList<>() {
         {
-            new ProgressToken("", 0, "Image/token-architecture.png");
+            new ProgressToken("build a stage = +1 card", 0, "Image/token-architecture.png");
             new ProgressToken("paper or potion = +1 card", 0, "Image/token-artsAndCrafts.png");
             new ProgressToken("1=4 points", 4, "Image/token-culture.png");
             new ProgressToken("2=12 points", 4, "Image/token-culture.png");
@@ -50,6 +50,4 @@ public class ProgressToken {
     public String getImageFront() {
         return imageFront;
     }
-
-
 }
