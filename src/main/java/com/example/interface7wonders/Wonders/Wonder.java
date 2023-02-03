@@ -13,6 +13,15 @@ public class Wonder {
         this.name = name;
         this.image = image;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
     public ArrayList<ArrayList<WonderPiece>> createlistPieces (){
         for (int k=0;k<Game.option.getNbPlayers();k++) {
             String name = Game.option.getListMerveilles().get(k).getName();

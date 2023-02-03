@@ -1,5 +1,11 @@
 package com.example.interface7wonders;
 
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+
+import java.io.IOException;
+import java.util.Objects;
+
 public abstract class Card {
     public static Card option;
     private int quantity;
@@ -24,4 +30,11 @@ public abstract class Card {
 
     public abstract Card clone();
 
+    public static void affiche(String path, ImageView imageViewName){
+        try{
+            Image image=new Image(Objects.requireNonNull(Card.class.
+                    getResource(path)).openStream());
+            imageViewName.setImage(image);}
+        catch (IOException | NullPointerException | IllegalArgumentException ignored){}
+    }
 }

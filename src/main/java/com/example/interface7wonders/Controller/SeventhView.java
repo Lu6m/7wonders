@@ -22,14 +22,6 @@ public class SeventhView {
     private AnchorPane afficheJeu4;
 
 
-    public void start() {
-        Deck.option.getListeDeck("Images/card-back-question.png");
-        Deck.option.getListeDeck("Images/card-back-alexandrie.png");
-        Deck.option.getListeDeck("Images/card-back-babylon.png");
-        //protected void onOkClick() {
-
-        }
-
 
     @FXML
     protected void onFinishedClick() throws IOException {

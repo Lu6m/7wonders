@@ -150,12 +150,11 @@ public class NinethView {
 
 
     public void initialize() {
-        Player p = ThirdView.option.getListPlayers().get(0);
-        playerText1.setText(p.option.getname());
+        playerText1.setText(ThirdView.option.getListPlayers().get(0).getName());
 
         mysteryDeck.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
-            Card carte = (Card) Deck.option.getListeDeck("Image/card-back-question.png").get(u);
-            mysteryDeck.setImage(carte);
+            String carte = (String) Deck.option.listeMystery.get(u).getImageFront();
+            Card.affiche(carte,mysteryDeck);
             u++;
 
             event.consume();

@@ -34,10 +34,15 @@ public class Game {
         this.listMerveilles.add(new Wonder("Olympie","Images/deck-olympie.png"));
         this.listMerveilles.add(new Wonder("Rhodes","Images/deck-rhodes.png"));
         Collections.shuffle(this.listMerveilles);
-
         }
 
     public ArrayList<Wonder> getListMerveilles() {
         return this.listMerveilles;
     }
+
+    public void takeProgressToken(){}
+    public void takeCard(){}
+    public void flipWonderPiece(){}
+
+
 }

@@ -15,6 +15,8 @@ import java.util.List;
 public class Deck {
     public static Deck option;
     private String imageBack;
+    public final ArrayList<Card>listeMystery=createDeck(listMystery);
+
     public static final ArrayList<Card> listAlexandria = new ArrayList<>() {
         {
             new CBlue(2, 2, 0, "Image/card-politic-women-2laurel-cat.png", true);
@@ -162,7 +164,6 @@ public class Deck {
 
     public Deck(String imageBack) {
         this.imageBack = imageBack;
-        createDeck(listMystery);
         ListDecksAssocies();
     }
 

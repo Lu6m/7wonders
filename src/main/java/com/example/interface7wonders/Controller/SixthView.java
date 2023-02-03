@@ -22,11 +22,6 @@ public class SixthView {
     @FXML
     private AnchorPane afficheJeu5;
 
-    public void start() {
-        Deck.option.getListeDeck("Images/card-back-question.png");
-        Deck.option.getListeDeck("Images/card-back-alexandrie.png");
-        Deck.option.getListeDeck("Images/card-back-babylon.png");
-    }
 
     @FXML
     protected void onFinishedClick() throws IOException {

@@ -38,7 +38,7 @@ public class ThirdView {
     }
 
     public void initialize(){
-        Wonder randomMerv=Game.option.getListMerveilles().get(1);
+        Wonder randomMerv=Game.option.getListMerveilles().get(0);
         String path =randomMerv.getImage();
         HelloApplication.BildAnzeigen(path,imageWonder);}
     @FXML
@@ -46,11 +46,11 @@ public class ThirdView {
         if (j != Game.option.getNbPlayers()-1) {
             playerText.setText("Player " + toString(j + 2));
             if (nameField.getText() instanceof String){
-                Player player=new Player(nameField.getText(),Game.option.getListMerveilles().get(j),0,0);
+                Player player=new Player(nameField.getText(),Game.option.getListMerveilles().get(j),0,0,new LinkedList<>(),new LinkedList<>());
                 listPlayers.add(player);
                 System.out.println(listPlayers);
                 nameField.clear();
-                Wonder randomMerv=Game.option.getListMerveilles().get(j);
+                Wonder randomMerv=Game.option.getListMerveilles().get(j+1);
                 String path =randomMerv.getImage();
                 HelloApplication.BildAnzeigen(path,imageWonder);
                 j++;
